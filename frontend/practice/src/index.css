@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  background-color: antiquewhite;
+  width: 100%;
+  line-height: 60px;
+
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  
+  color: green;
+
+}
+
+
+.data{
+  background: whitesmoke;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  margin-right: 28px;
+}
+.data h3{
+  color: green;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap : 10px
+  
+}
+.forms{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background: whitesmoke;
+  height: fit-content;
+  padding: 40px;
+  margin: 20px;
+}
+.forms input{
+  height: 40px;
+  
+}
+.forms button {
+  border: solid 1px green;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+  color: green;
+}
+.forms button:hover{
+  border: none;
+  color: white;
+  background: green;
+  cursor: pointer;
+}
+.data span{
+  cursor: pointer;
+}
+.error{
+  border: solid 2px red;
+  background: rgb(240, 182, 182);
+}
+form.login, form.signup{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: 50px, auto;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+}
+.navButton{
+  border: solid 1px green;
+  color: green;
+  background-color: none;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
